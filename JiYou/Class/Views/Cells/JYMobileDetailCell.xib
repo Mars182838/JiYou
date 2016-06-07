@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="JYMobileDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rpN-hV-Hrw">
+                        <rect key="frame" x="15" y="15" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="r8x-CL-dhH"/>
+                            <constraint firstAttribute="width" constant="20" id="xd8-mY-qqo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eI-d8-TdD" customClass="HTCopyableLabel">
+                        <rect key="frame" x="50" y="11" width="270" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4eI-d8-TdD" secondAttribute="trailing" id="A98-dU-Tue"/>
+                    <constraint firstItem="4eI-d8-TdD" firstAttribute="leading" secondItem="rpN-hV-Hrw" secondAttribute="trailing" constant="15" id="Lph-gl-yes"/>
+                    <constraint firstItem="4eI-d8-TdD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="b0i-aM-Xyu"/>
+                    <constraint firstAttribute="bottom" secondItem="4eI-d8-TdD" secondAttribute="bottom" constant="11" id="hqr-cf-TFg"/>
+                    <constraint firstItem="rpN-hV-Hrw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="rgs-Ht-AmC"/>
+                    <constraint firstItem="rpN-hV-Hrw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="uPj-NO-4Yc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerImage" destination="rpN-hV-Hrw" id="27w-dY-HXH"/>
+                <outlet property="nameLabel" destination="4eI-d8-TdD" id="lEC-ze-dC9"/>
+            </connections>
+            <point key="canvasLocation" x="603" y="399"/>
+        </tableViewCell>
+    </objects>
+</document>

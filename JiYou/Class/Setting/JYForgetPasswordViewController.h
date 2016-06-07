@@ -1,0 +1,16 @@
+//
+//  JYForgetPasswordViewController.h
+//  JiYou
+//
+//  Created by 俊王 on 15/8/25.
+//  Copyright (c) 2015年 JY. All rights reserved.
+//
+
+#import "JYBaseViewController.h"
+#import "JYPasswordModel.h"
+
+@interface JYForgetPasswordViewController : JYBaseViewController
+
+@property (nonatomic, assign) BOOL isTrade;
+
+@end

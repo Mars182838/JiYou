@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>717E2D70-1FF1-4DB6-BD43-0F6BEC588D2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JiYou</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>a63c9ab9-2a7a-46ad-a587-8016332c9efc++114</key>
+		<string>svn://local-svn:3069/project/trunk/JiYou/branches/JiYou1.1</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JiYou.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>a63c9ab9-2a7a-46ad-a587-8016332c9efc++114</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>a63c9ab9-2a7a-46ad-a587-8016332c9efc++114</key>
+		<string>svn://local-svn:3069</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://local-svn:3069/project/trunk/JiYou/branches/JiYou1.1/JiYou.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>a63c9ab9-2a7a-46ad-a587-8016332c9efc++114</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>a63c9ab9-2a7a-46ad-a587-8016332c9efc++114</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JiYou1.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
